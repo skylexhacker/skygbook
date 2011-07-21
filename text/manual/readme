@@ -1,0 +1,47 @@
+SKYGBOOK (version 1.0 stable)
+-----------------------------
+
+Require:PHP (5.0 or above),apache web server.
+
+Possibilities:
+-Antispam Filter
+-BB codes
+-Use files for administration commands.
+-Use smiles
+-Use templates
+-IP Ban 
+-Use design in CSS
+
+-----------------------------
+
+Structure:
+403.php 404.php - errors
+captcha.php - antispan Filter
+functions.php - main core
+hard.php - form template
+index.php - main file
+template.php - if banned include this file
+unlink.php - file for cron to run every 10 min
+captcha/ - include antispan images
+smiles/ - smiles path
+text/ - for everything else
+	ac.ttf - font for antispan
+	banlist - ip ban
+	config - main config file
+	css.css - design file
+	prebanlist - include ( name | ip | date ) .To ban this user 				add his ip into ban list.
+	records - all records
+	tmp/ - HTML template files 
+	manual/ - path to manual files
+	img/ - main form images
+
+-----------------------------
+
+Install:
+1.Put files into server folder.
+2.Run
+	chmod -R 664 "path_to_folder"
+3.Done.
+
+Author:
+Alex Averin | skylex.hacker@gmail.com | 2011

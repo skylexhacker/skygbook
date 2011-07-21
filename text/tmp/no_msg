@@ -1,0 +1,4 @@
+<p align='center'><span id='error'>пока нет записей</span></p>
+<?
+include 'hard.php';
+?>

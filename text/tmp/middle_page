@@ -1,0 +1,1 @@
+ : <a id="page" <?echo "href='http://".$_SERVER["SERVER_NAME"]."/".PAGES."/index.php?page=" . $d . "'"; ?> ><b><?=$d?></b></a> : 

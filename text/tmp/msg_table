@@ -1,0 +1,11 @@
+<table id='content_table' align='center' width='40%'>
+<tr id='name_table'>
+<td align='center'>
+<b><? echo $strtr[$post][0]; ?></b>
+</td>
+</tr>
+<tr>
+<td id='message' align='left'>
+<? echo $strtr[$post][1]; ?>
+</td></tr>
+</table>

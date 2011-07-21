@@ -1,0 +1,15 @@
+<?
+define("PAGES",basename(getcwd()));
+define("MESSONPAGE",intval(8));
+$_SESSION['code'] = "";
+require 'text/tmp/header';
+require 'functions.php';
+remove_img(@$_GET['q']);
+$value = 8;
+$define = 8;
+$error = "";
+$fileLink = file("text/records");
+$fileLines = count($fileLink);
+
+
+?>

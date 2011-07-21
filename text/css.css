@@ -1,0 +1,218 @@
+body
+{
+    background: #f2f0e3;
+    color: #222;
+
+    font-family: "Calibri", "Arial", "Verdana", "Serif";
+    font-size: 16px;
+
+    min-height: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+#button {
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid grey;
+    background-color: lightgrey;
+    font-family: 'Times New Roman',Times,serif;
+    font-size: 16px;
+}
+#button::-moz-focus-outer,
+::-moz-focus-inner
+{
+border: 1px solid transparent!important;
+}
+
+
+a
+{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Georgia;
+}
+a:visited
+{
+
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Georgia;
+}
+#content
+{
+    
+    font-family: Georgia,'Times New Roman',times,serif;
+    background-color: olive;
+    font-size: 15px;
+    border-right-style: groove;
+    border-left-style: groove;
+    border-bottom-style: groove;
+    border-top-style: groove;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    text-align: center;
+}
+
+#reply
+{
+    font-family: Georgia,'Times New Roman',times,serif;
+    background-color: #fefefe;
+    font-size: 15px;
+
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    text-align: center;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-color: #15798e;
+    border-left-color: #15798e;
+    border-bottom-color: #15798e;
+    border-top-color: #15798e;
+}
+
+#page:visited
+{
+	font-family: 'Times New Roman',Times,serif;
+    font-size: 20px;
+    background-color:lightgrey;
+    border:1px solid grey;
+    -moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	outline:none;
+	-moz-outline-style: none;
+	color:black;
+}
+
+
+#backlight
+{
+    background-color:lemonchiffon;
+}
+
+#error
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+    text-align: center;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-color: #d42323;
+    border-left-color: #d42323;
+    border-bottom-color: #d42323;
+    border-top-color: #d42323;
+    background-color: #de6f6f;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+#spoiler
+{
+    width: 1%;
+    height: 1%;
+    background:#EBEBEB;
+    border:1px solid #999999;
+    font-size: 20px;
+}
+
+.hard
+{
+    border:1px solid grey;
+    padding:5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    background-color: #d9d9d9;
+}
+
+#text
+{
+    border:1px solid #0488c0;
+    background-color: #dcd3d3;
+    font-family: 'Times New Roman',Times,serif;
+    font-size: 16px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:3px;
+}
+#input
+{
+    padding:1px;
+    width: 100%;
+    background-color: white;
+    border:1px solid grey;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:3px;
+}
+
+#textarea
+{
+    padding:1px;
+    width: 100%;
+    resize: none;
+    background-color: white;
+    border:1px solid grey;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:3px;
+}
+
+
+#content_table {
+    background-color:white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    padding:4px;
+    border:1px solid grey;
+}
+
+#message {
+    background-color:lightgrey;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    padding:5px;
+    border:1px solid grey;
+}
+#name_table {
+    background-color:white;
+    border:1px solid grey;
+}
+#bb{
+	padding:2px;
+	padding-top:5px;
+	cursor:pointer;
+    border:1px solid #999999;
+    text-align:center;
+    font-size: 16px;
+    font-variant: normal;
+    color:black;
+    background-position:center;
+}
+#bb_img{
+	padding:2px;
+	padding-top:5px;
+	cursor:pointer;
+    border:1px solid #999999;
+    text-align:center;
+    font-size: 16px;
+    font-variant: normal;
+    color:black;
+    background-position:center;
+}

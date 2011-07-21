@@ -1,0 +1,8 @@
+<Files *>
+order allow,deny 
+deny from all 
+</Files>
+<Files css.css>
+order allow,deny 
+allow from all 
+</Files>
